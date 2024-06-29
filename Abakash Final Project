@@ -1,1 +1,1232 @@
-fgdhd
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial￾scale=1.0" />
+ <!--
+ - primary meta tag
+ -->
+ <title>Woodex - Get Quality Furniture</title>
+ <meta name="title" content="Woodex - Get Quality Furniture"
+/>
+ <meta
+ name="description"
+ content="This is an eCommerce html template made by 
+codewithsadee"
+ />
+ <!--
+ - favicon
+ -->
+ <link rel="shortcut icon" href="./favicon.svg"
+type="image/svg+xml" />
+ <!--
+ - custom css link
+ -->
+ <link rel="stylesheet" href
+
+<!--
+ - google font link
+-->
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com"
+crossorigin />
+ <link
+ 
+href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&fam
+ily=Roboto:wght@400;500;700&display=swap"
+ rel="stylesheet"
+ />
+ <!--
+ - preload images
+ -->
+ <link rel="preload" as="image" href="./assets/images/hero￾product-1.jpg" />
+ <link rel="preload" as="image" href="./assets/images/hero￾product-2.jpg" />
+ <link rel="preload" as="image" href="./assets/images/hero￾product-3.jpg" />
+ <link rel="preload" as="image" href="./assets/images/hero￾product-4.jpg" />
+ <link rel="preload" as="image" href="./assets/images/hero￾product-5.jpg" />
+ </head>
+ <body id="top">
+ <!--
+ - #HEADER
+ -->
+ <header class="header" data-header>
+ <div class="container">
+ <div class="input-wrapper">
+ <input
+ type="search"
+ name="search"
+placeholder="Search Anything..."
+ class="input-field"
+ />
+ <ion-icon name="search-outline" aria￾hidden="true"></ion-icon>
+ </div>
+ <a href="#" class="logo">Woodex</a>
+ <div class="header-action">
+ <button class="header-action-btn" aria-label="user">
+ <ion-icon name="person-outline" aria￾hidden="true"></ion-icon>
+ </button>
+ <button class="header-action-btn" aria-label="favorite 
+list">
+ <ion-icon name="heart-outline" aria￾hidden="true"></ion-icon>
+ <span class="btn-badge">0</span>
+ </button>
+ <button class="header-action-btn" aria-label="cart">
+ <ion-icon name="bag-handle-outline" aria￾hidden="true"></ion-icon>
+ <span class="btn-badge">0</span>
+ </button>
+ <button
+ class="header-action-btn"
+ aria-label="open menu"
+ data-nav-toggler
+ >
+<ion-icon name="menu-outline" aria￾hidden="true"></ion-icon>
+ </button>
+ </div>
+ </div>
+ </header>
+ <!--
+ - #SIDEBAR
+ -->
+ <div class="sidebar" data-navbar>
+ <button class="nav-close-btn" aria-label="close menu" data￾nav-toggler>
+ <ion-icon name="close-outline" aria-hidden="true"></ion￾icon>
+ </button>
+ <div class="wrapper">
+ <ul class="sidebar-list">
+ <li>
+ <p class="sidebar-list-title">Language</p>
+ </li>
+ <li>
+ <a href="#" class="sidebar-link">English</a>
+ </li>
+ <li>
+ <a href="#" class="sidebar-link">French</a>
+ </li>
+ <li>
+ <a href="#" class="sidebar-link">Arabric</a>
+ </li>
+ </ul>
+<ul class="sidebar-list">
+ <li>
+ <p class="sidebar-list-title">Currency</p>
+ </li>
+ <li>
+ <a href="#" class="sidebar-link">USD - US Dollar</a>
+ </li>
+ <li>
+ <a href="#" class="sidebar-link">Euro</a>
+ </li>
+ <li>
+ <a href="#" class="sidebar-link">Pound</a>
+ </li>
+ </ul>
+ </div>
+ <nav class="navbar">
+ <ul class="navbar-list">
+ <li class="navbar-item">
+ <a href="#home" class="navbar-link" data-nav￾link>Home</a>
+ </li>
+ <li class="navbar-item">
+ <a href="#about" class="navbar-link" data-nav￾link>About</a>
+ </li>
+ <li class="navbar-item">
+ <a href="#product" class="navbar-link" data-nav￾link>Product</a>
+ </li>
+ <li class="navbar-item">
+<a href="#blog" class="navbar-link" data-nav￾link>Blogs</a>
+ </li>
+ </ul>
+ </nav>
+ <ul class="contact-list">
+ <li>
+ <p class="contact-list-title">Contact Us</p>
+ </li>
+ <li class="contact-item">
+ <address class="address">
+ 69 Halsey St, Ny 10002, New York, United States
+ </address>
+ </li>
+ <li class="contact-item">
+ <a href="mailto:support.center@woodex.co"
+class="contact-link"
+ >support.center@woodex.co</a
+ >
+ </li>
+ <li class="contact-item">
+ <a href="tel:00001235567890" class="contact-link"
+ >(0000) 1235 567890</a
+ >
+ </li>
+ </ul>
+ <div class="social-wrapper">
+ <p class="social-list-title">Follow US On Socials</p>
+ <ul class="social-list">
+ <li>
+ <a href="#" class="social-link">
+<ion-icon name="logo-facebook"></ion-icon>
+ </a>
+ </li>
+ <li>
+ <a href="#" class="social-link">
+ <ion-icon name="logo-twitter"></ion-icon>
+ </a>
+ </li>
+ <li>
+ <a href="#" class="social-link">
+ <ion-icon name="logo-tumblr"></ion-icon>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ <div class="overlay" data-overlay data-nav-toggler></div>
+ <main>
+ <article>
+ <!--
+ - #HERO
+ -->
+ <section class="section hero" id="home" aria￾label="home">
+ <div class="container">
+ <ul class="hero-list">
+ <li>
+ <div class="hero-card">
+ <figure
+ class="card-banner img-holder"
+ style="--width: 285; --height: 396"
+ >
+<img
+ src="./assets/images/hero-product-1.jpg"
+ width="285"
+height="396"
+alt="Art Deco Home"
+class="img-cover"
+ />
+ </figure>
+ <div class="card-content">
+ <h3>
+ <a href="#" class="card-title">Art Deco 
+Home</a>
+ </h3>
+ <p class="card-text">Decoration</p>
+ </div>
+ </div>
+ </li>
+ <li class="colspan-2">
+ <div class="hero-card">
+ <figure
+ class="card-banner img-holder"
+ style="--width: 568; --height: 389"
+ >
+ <img
+ src="./assets/images/hero-product-2.jpg"
+ width="568"
+height="389"
+alt="Helen Chair"
+class="img-cover"
+ />
+ </figure>
+ <div class="card-content">
+ <h3
+<a href="#" class="card-title">Helen 
+Chair</a>
+ </h3>
+ <p class="card-text">Decoration</p>
+ </div>
+ </div>
+ </li>
+ <li>
+ <div class="hero-card">
+ <figure
+ class="card-banner img-holder"
+ style="--width: 285; --height: 396"
+ >
+ <img
+ src="./assets/images/hero-product-3.jpg"
+ width="285"
+height="396"
+alt="Vase Of Flowers"
+class="img-cover"
+ />
+ </figure>
+ <div class="card-content">
+ <h3>
+ <a href="#" class="card-title">Vase Of 
+Flowers</a>
+ </h3>
+ <p class="card-text">Decoration</p>
+ </div>
+ </div>
+ </li>
+ <li class="colspan-2">
+ <div class="hero-card">
+<figure
+ class="card-banner img-holder"
+ style="--width: 580; --height: 213"
+ >
+ <img
+ src="./assets/images/hero-product-4.jpg"
+ width="580"
+height="213"
+ alt="Wood Eggs"
+ class="img-cover"
+ />
+ </figure>
+ <div class="card-content">
+ <h3>
+ <a href="#" class="card-title">Wood 
+Eggs</a>
+ </h3>
+ <p class="card-text">Decoration</p>
+ </div>
+ </div>
+ </li>
+ <li class="colspan-2">
+ <div class="hero-card">
+ <figure
+ class="card-banner img-holder"
+ style="--width: 580; --height: 213"
+ >
+ <img
+ src="./assets/images/hero-product-5.jpg"
+ width="580"
+height="213"
+alt="Table Wood Pine"
+class="img-cover"
+ />
+</figure>
+ <div class="card-content">
+ <h3>
+ <a href="#" class="card-title">Table Wood 
+Pine</a>
+ </h3>
+ <p class="card-text">Furniture</p>
+ </div>
+ </div>
+ </li>
+ </ul>
+ </div>
+ </section>
+ <!--
+ - #ABOUT
+ -->
+ <section class="section about" id="about" aria￾label="about">
+ <div class="container">
+ <h2 class="section-title">Woodex Store</h2>
+ <p class="section-text">
+ When you start with a portrait and search for a 
+pure form, a clear
+ volume, through successive eliminations, you arrive 
+inevitably at
+ the egg. Likewise, starting with the egg and 
+following the same
+ process in reverse, one finishes with the portrait.
+ </p>
+ <div class="about-card">
+ <figure
+class="card-banner img-holder"
+ style="--width: 1170; --height: 450"
+ >
+ <img
+ src="./assets/images/about-banner.jpg"
+ width="1170"
+ height="450"
+ loading="lazy"
+ alt="Woodex promo"
+ class="img-cover"
+ />
+ </figure>
+ <button class="play-btn" aria-label="play video">
+ <ion-icon
+ name="play-circle-outline"
+ aria-hidden="true"
+ ></ion-icon>
+ </button>
+ </div>
+ </div>
+ </section>
+ <!--
+ - #PRODUCTS
+ -->
+ <section class="section product" id="product" aria￾label="product">
+ <div class="container">
+ <div class="title-wrapper">
+ <h2 class="h2 section-title">Popular Products</h2>
+ <ul class="filter-btn-list">
+ <li class="filter-btn-item">
+ <button class="filter-btn active" data-filter￾btn="all">
+All Products
+ </button>
+ </li>
+ <li class="filter-btn-item">
+ <button class="filter-btn" data-filter￾btn="accessory">
+ Accessory
+ </button>
+ </li>
+ <li class="filter-btn-item">
+ <button class="filter-btn" data-filter￾btn="decoration">
+ Decoration
+ </button>
+ </li>
+ <li class="filter-btn-item">
+ <button class="filter-btn" data-filter￾btn="furniture">
+ Furniture
+ </button>
+ </li>
+ </ul>
+ </div>
+ <ul class="grid-list product-list" data-filter="all">
+ <li class="decoration">
+ <div class="product-card">
+ <a
+ href="#"
+ class="card-banner img-holder has-before"
+ style="--width: 300; --height: 300"
+ >
+ <img
+ src="./assets/images/product-1.jpg"
+width="300"
+ <p class="card-text">Starting at $17.99</p>
+ <a href="#" class="btn-link">
+ <span class="span">Shop Now</span>
+ <ion-icon
+ name="arrow-forward"
+ aria-hidden="true"
+ ></ion-icon>
+ </a>
+ <div
+ class="has-bg-image"
+ style="
+ background-image: 
+url('./assets/images/collection-1.jpg');
+ "
+ ></div>
+ </div>
+ </li>
+ <li>
+ <div class="collection-card has-before 
+hover:shine">
+ <h2 class="h2 card-title">What’s New?</h2>
+ <p class="card-text">Get the glow</p>
+ <a href="#" class="btn-link">
+ <span class="span">Discover Now</span>
+ <ion-icon
+ name="arrow-forward"
+ aria-hidden="true"
+ ></ion-icon>
+ </a>
+<div
+ class="has-bg-image"
+ style="
+ background-image: 
+url('./assets/images/collection-2.jpg');
+ "
+ ></div>
+ </div>
+ </li>
+ <li>
+ <div class="collection-card has-before 
+hover:shine">
+ <h2 class="h2 card-title">Buy 1 Get 1</h2>
+ <p class="card-text">Starting at $7.99</p>
+ <a href="#" class="btn-link">
+ <span class="span">Discover Now</span>
+ <ion-icon
+ name="arrow-forward"
+ aria-hidden="true"
+></ion-icon>
+ </a>
+ of leadership.
+ </p>
+ <button class="btn btn-primary">
+ <span>Shop Now</span>
+ <ion-icon
+ name="arrow-forward-outline"
+ aria-hidden="true"
+></ion-icon>
+ </button>
+ </div>
+ </section>
+ <!--
+ - #COLLECTION
+ -->
+ <section class="section collection">
+ <div class="container">
+ <ul class="collection-list has-scrollbar">
+ <li>
+ <div
+ class="collection-card"
+ style="
+ background-image: 
+url('./assets/images/collection-1.jpg');
+ "
+ >
+ <h3 class="h4 card-title">Men Collections</h3>
+ <a href="#" class="btn btn-secondary">
+ <span>Explore All</span>
+ <ion-icon
+ name="arrow-forward-outline"
+ aria-hidden="true"
+ ></ion-icon>
+ </a>
+ </div>
+ </li>
+ <li>
+ <div
+ class="collection-card"
+ style="
+background-image: 
+url('./assets/images/collection-2.jpg');
+ "
+ >
+ <h3 class="h4 card-title">Women 
+Collections</h3>
+ <a href="#" class="btn btn-secondary">
+ <span>Explore All</span>
+ <ion-icon
+ name="arrow-forward-outline"
+ aria-hidden="true"
+ ></ion-icon>
+ </a>
+ </div>
+ </li>
+ <li>
+ <div
+ class="collection-card"
+ style="
+ background-image: 
+url('./assets/images/collection-3.jpg');
+ "
+ >
+ <h3 class="h4 card-title">Sports 
+Collections</h3>
+ <a href="#" class="btn btn-secondary">
+ <span>Explore All</span>
+ <ion-icon
+ name="arrow-forward-outline"
+ aria-hidden="true"
+ ></ion-icon>
+ </a>
+</div>
+ </li>
+ </ul>
+ </div>
+ </section>
+ <!--
+ - #PRODUCT
+ -->
+ <section class="section product">
+ <div class="container">
+ <h2 class="h2 section-title">Bestsellers 
+Products</h2>
+ <ul class="filter-list">
+ <li>
+ <button class="filter-btn active">All</button>
+ </li>
+ <li>
+ <button class="filter-btn">Nike</button>
+ </li>
+ <li>
+ <button class="filter-btn">Adidas</button>
+ </li>
+ <li>
+ <button class="filter-btn">Puma</button>
+ </li>
+ <li>
+ <button class="filter-btn">Bata</button>
+ </li>
+ <li>
+<button class="filter-btn">Apex</button>
+ </li>
+ </ul>
+ <ul class="product-list">
+ <li class="product-item">
+ <div class="product-card" tabindex="0">
+ <figure class="card-banner">
+ <img
+ src="./assets/images/product-1.jpg"
+ width="312"
+height="350"
+loading="lazy"
+alt="Running Sneaker Shoes"
+class="image-contain"
+ />
+ <div class="card-badge">New</div>
+ <ul class="card-action-list">
+ <li class="card-action-item">
+ <button
+ class="card-action-btn"
+ aria-labelledby="card-label-1"
+ >
+ <ion-icon name="cart-outline"></ion￾icon>
+ </button>
+ <div class="card-action-tooltip"
+id="card-label-1">
+ Add to Cart
+ </div>
+ </li>
+ rel="stylesheet"
+ />
+</head>
+ <body>
+ <div class="overlay" data-overlay></div>
+ <!--
+ - MODAL
+ -->
+ <div class="modal" data-modal>
+ <div class="modal-close-overlay" data-modal-overlay></div>
+ <div class="modal-content">
+ <button class="modal-close-btn" data-modal-close>
+ <ion-icon name="close-outline"></ion-icon>
+ </button>
+ <div class="newsletter-img">
+ <img
+ src="./assets/images/newsletter.png"
+ alt="subscribe newsletter"
+ width="400"
+ height="400"
+ />
+ </div>
+ <div class="newsletter">
+ <form action="#">
+ <div class="newsletter-header">
+ <h3 class="newsletter-title">Subscribe 
+Newsletter.</h3>
+ <p class="newsletter-desc">
+ Subscribe the <b>Woodex</b> to get latest 
+products and discount
+ update.
+ </p>
+</div>
+ <input
+ type="email"
+ name="email"
+ class="email-field"
+ placeholder="Email Address"
+ required
+ />
+ <button type="submit" class="btn￾newsletter">Subscribe</button>
+ </form>
+ </div>
+ </div>
+ </div>
+ <!--
+ - NOTIFICATION TOAST
+ -->
+ <div class="notification-toast" data-toast>
+ <button class="toast-close-btn" data-toast-close>
+ <ion-icon name="close-outline"></ion-icon>
+ </button>
+ <div class="toast-banner">
+ <img
+ src="./assets/images/products/jewellery-1.jpg"
+ alt="Rose Gold Earrings"
+ width="80"
+ height="70"
+ />
+ </div>
+ <div class="toast-detail">
+ <p class="toast-message">Someone in new just bought</p>
+<p class="toast-title">Rose Gold Earrings</p>
+ <p class="toast-meta"><time datetime="PT2M">2 
+Minutes</time> ago</p>
+ </div>
+ </div>
+ <!--
+ - HEADER
+ -->
+ <header>
+ <div class="header-top">
+ <div class="container">
+ <ul class="header-social-container">
+ <li>
+ <a href="#" class="social-link">
+ <ion-icon name="logo-facebook"></ion-icon>
+ </a>
+ </li>
+ <li>
+ <a href="#" class="social-link">
+ <ion-icon name="logo-twitter"></ion-icon>
+ </a>
+ </li>
+ <li>
+ <a href="#" class="social-link">
+ <ion-icon name="logo-instagram"></ion-icon>
+ </a>
+ </li>
+ <li>
+ <a href="#" class="social-link">
+ <ion-icon name="logo-linkedin"></ion-icon>
+</a>
+ </li>
+ </ul>
+ <div class="header-alert-news">
+ <p>
+ <b>Free Shipping</b>
+ This Week Order Over - $55
+ </p>
+ </div>
+ <div class="header-top-actions">
+ <select name="currency">
+ <option value="usd">INR</option>
+ <option value="eur">EUR &euro;</option>
+ </select>
+ <select name="language">
+ <option value="en-US">English</option>
+ <option value="es-ES">Espa&ntilde;ol</option>
+ <option value="fr">Fran&ccedil;ais</option>
+ </select>
+ </div>
+ </div>
+ </div>
+ <div class="header-main">
+ <div class="container">
+ <a href="#" class="header-logo">
+ <img
+ src="./assets/images/logo/logo.svg"
+ alt="Woodex's logo"
+ width="120"
+ height="36"
+ />
+ </a>
+<div class="header-search-container">
+ <input
+ type="search"
+ name="search"
+ class="search-field"
+ placeholder="Enter your product name..."
+ />
+ <button class="search-btn">
+ <ion-icon name="search-outline"></ion-icon>
+ </button>
+ </div>
+ <div class="header-user-actions">
+ <button class="action-btn">
+ <ion-icon name="person-outline"></ion-icon>
+ </button>
+ <button class="action-btn">
+ <ion-icon name="heart-outline"></ion-icon>
+ <span class="count">0</span>
+ </button>
+ <button class="action-btn">
+ <ion-icon name="bag-handle-outline"></ion-icon>
+ <span class="count">0</span>
+ </button>
+ </div>
+ </div>
+ </div>
+ <nav class="desktop-navigation-menu">
+ <div class="container">
+ <ul class="desktop-menu-category-list">
+ <li class="menu-category">
+ <a href="#" class="menu-title">Home</a>
+ </li>
+<li class="menu-category">
+ <a href="#" class="menu-title">Categories</a>
+ <div class="dropdown-panel">
+ <ul class="dropdown-panel-list">
+ <li class="menu-title">
+ <a href="#">Electronics</a>
+ </li>
+ <li class="panel-list-item">
+ <a href="#">Desktop</a>
+ </li>
+ <li class="panel-list-item">
+ <a href="#">Laptop</a>
+ </li>
+ <li class="panel-list-item">
+ <a href="#">Camera</a>
+ </li>
+ <li class="panel-list-item">
+ <a href="#">Tablet</a>
+ </li>
+ <li class="panel-list-item">
+ <a href="#">Headphone</a>
+ </li>
+ <li class="panel-list-item">
+ <a href="#">
+ <img
+ src="./assets/images/electronics-banner-
+1.jpg"
+ alt="headphone collection"
+width="250"
+height="119"
+ />
+ </a>
+ </li>
+ </ul>
+/*-----------------------------------*\
+ #style.css
+\*-----------------------------------*/
+/**
+* copyright 2022 @codewithsadee 
+*/
+/*-----------------------------------*\
+ #CUSTOM PROPERTY
+\*-----------------------------------*/
+:root {
+/**
+ * colors
+ */
+ --spanish-gray: hsl(0, 0%, 60%);
+ --sonic-silver: hsl(0, 0%, 47%);
+ --eerie-black: hsl(0, 0%, 13%);
+ --salmon-pink: hsl(353, 100%, 78%);
+ --sandy-brown: hsl(29, 90%, 65%);
+ --bittersweet: hsl(0, 100%, 70%);
+ --ocean-green: hsl(152, 51%, 52%);
+ --davys-gray: hsl(0, 0%, 33%);
+ --cultured: hsl(0, 0%, 93%);
+ --white: hsl(0, 100%, 100%);
+ --onyx: hsl(0, 0%, 27%);
+ /**
+ * typography
+ */
+ --fs-1: 1.563rem;
+ --fs-2: 1.375rem;
+ --fs-3: 1.25rem;
+ --fs-4: 1.125rem;
+ --fs-5: 1rem;
+ --fs-6: 0.938rem;
+ --fs-7: 0.875rem;
+ --fs-8: 0.813rem;
+ --fs-9: 0.75rem;
+ --fs-10: 0.688rem;
+ --fs-11: 0.625rem;
+ --weight-300: 300;
+ --weight-400: 400;
+ --weight-500: 500;
+ --weight-600: 600;
+ --weight-700: 700;
+ /**
+ * border-radius
+ */
+ --border-radius-md: 10px;
+ --border-radius-sm: 5px;
+ /**
+ * transition 
+ */
+ --transition-timing: 0.2s ease;
+
+/*-----------------------------------*\
+ #RESET
+\*-----------------------------------*/
+*, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+a { text-decoration: none; }
+li { list-style: none; }
+button {
+ background: none;
+ font: inherit;
+ border: none;
+ cursor: pointer;
+}
+img, ion-icon, button, a { display: block; }
+span { display: inline-block; }
+html {
+ font-family: "Poppins", sans-serif;
+ overscroll-behavior: contain;
+}
+input {
+display: block;
+ width: 100%;
+ font: inherit;
+}
+input::placeholder { font: inherit; }
+body { background: var(--white); }
+/**
+* scrollbar style
+*/
+body::-webkit-scrollbar { width: 15px; }
+body::-webkit-scrollbar-track {
+ background: var(--white);
+ border-left: 1px solid var(--cultured);
+}
+body::-webkit-scrollbar-thumb {
+ background: hsl(0, 0%, 80%);
+ border: 3px solid var(--white);
+ border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 
+70%); }
+/*-----------------------------------*\
+ #REUSED STYLE
+\*-----------------------------------*/
+.container { padding: 0 15px; }
+.has-scrollbar { padding-bottom: 5px; }
+.has-scrollbar::-webkit-scrollbar {
+ width: 12px; /* for vertical scroll */
+ height: 12px; /* for horizontal scroll */
+}
+.has-scrollbar::-webkit-scrollbar-thumb {
+ background: transparent;
+ border: 3px solid var(--white);
+ border-radius: 20px;
+}
+.has-scrollbar:hover::-webkit-scrollbar-thumb { background: 
+hsl(0, 0%, 90%); }
+.has-scrollbar::-webkit-scrollbar-thumb:hover { background: 
+hsl(0, 0%, 80%); }
+.title {
+ color: var(--eerie-black);
+ font-size: var(--fs-5);
+ font-weight: var(--weight-600);
+ letter-spacing: 0.4px;
+ text-transform: capitalize;
+ padding-bottom: 10px;
+ border-bottom: 1px solid var(--cultured);
+ margin-bottom: 30px;
+}
+/*-----------------------------------*\
+ #MAIN
+\*-----------------------------------*/
+/**
+* overlay 
+*/
+.overlay {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100vh;
+ background: hsla(0, 0%, 0%, 0.5);
+ opacity: 0;
+ pointer-events: none;
+ z-index: 15;
+ transition: 0.5s ease;
+}
+.overlay.active {
+ opacity: 1;
+ pointer-events: all;
+}
+/**
+* MODAL 
+*/
+modal {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100vh;
+ background: hsla(0, 0%, 0%, 0.5);
+display: flex;
+ justify-content: center;
+ align-items: center;
+ opacity: 0;
+ visibility: hidden;
+ pointer-events: none;
+ z-index: 10;
+ animation: popup 1s ease-in-out 5s forwards;
+}
+@keyframes popup {
+ 0% {
+ opacity: 0;
+ visibility: hidden;
+ pointer-events: none;
+ }
+ 100% {
+ opacity: 1;
+ visibility: visible;
+ pointer-events: all;
+ }
+}
+.modal.closed { display: none; }
+.modal-close-overlay {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 1;
+}
+.newsletter-img { display: none; }
+.modal-content {
+ position: relative;
+ max-width: 350px;
+ margin: 20px;
+ background: var(--white);
+ border-radius: var(--border-radius-md);
+ overflow: hidden;
+ z-index: 2;
+ animation: scaleUp 0.5s ease-in-out 5s forwards;
+}
+@keyframes scaleUp {
+ 0% { transform: scale(0.9); }
+ 100% { transform: scale(1); }
+}
+.modal-close-btn {
+ position: absolute;
+ top: 15px;
+ right: 15px;
+ background: var(--salmon-pink);
+ color: var(--white);
+ font-size: 16px;
+ padding: 5px;
+ border-radius: var(--border-radius-sm);
+}
+.modal-close-btn:hover { opacity: 0.9; }
+.modal-close-btn ion-icon { --ionicon-stroke-width: 70px; }
+.newsletter {
+ padding: 50px 30px;
+ text-align: center;
+}
+.newsletter-header { margin-bottom: 20px; }
+.newsletter-title {
+ color: var(--onyx);
+ font-size: var(--fs-2);
+ font-weight: var(--weight-600);
+ margin-bottom: 10px;
+}
+.newsletter-desc {
+ color: var(--sonic-silver);
+ font-size: var(--fs-7);
+ line-height: 1.6;
+}
+.email-field {
+ font-size: var(--fs-7);
+ padding: 8px 16px;
+ border-radius: var(--border-radius-sm);
+ border: 1px solid var(--cultured);
+ margin-bottom: 16px;
+}
+.btn-newsletter {
+ background: var(--eerie-black);
+ color: var(--white);
+ font-size: var(--fs-7);
+ font-weight: var(--weight-600);
+ text-transform: uppercase;
+ padding: 10px 15px;
+ border-radius: var(--border-radius-sm);
+ margin: auto;
+ transition: var(--transition-timing);
+}
+.btn-newsletter:hover { background: var(--salmon-pink); }
+/**
+* NOTIFICATION TOAST 
+*/
+.notification-toast {
+ position: fixed;
+ bottom: 80px;
+ left: 20px;
+ right: 20px;
+ background: var(--white);
+ max-width: 300px;
+ display: flex;
+ align-items: flex-start;
+ gap: 15px;
+ padding: 15px;
+ border-radius: var(--border-radius-md);
+ box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
+ transform: translateX(calc(-100% - 40px));
+ transition: 0.5s ease-in-out;
+ z-index: 5;
+ animation: slideInOut 10s ease-in-out infinite;
+}
+@keyframes slideInOut {
+ 0%,
+ 45%,
+ 100% {
+ transform: translateX(calc(-100% - 40px));
+ opacity: 0;
+visibility: hidden;
+ }
+ 50%,
+ 95% {
+ transform: translateX(0);
+ opacity: 1;
+ visibility: visible;
+ }
+}
+.notification-toast.closed { display: none; }
+.toast-close-btn {
+ position: absolute;
+ top: 10px;
+ right: 10px;
+ color: var(--sonic-silver);
+}
+.toast-close-btn ion-icon { --ionicon-stroke-width: 50px; }
+.toast-banner {
+ width: 70px;
+ height: 70px;
+ border: 1px solid var(--cultured);
+ border-radius: var(--border-radius-sm);
+}
+.toast-banner img {
+ width: 100%;
+ height: 100%;
+ object-fit: contain;
+ object-position: center;
+}
+.toast-detail {
+ width: calc(100% - 85px);
+ padding-right: 10px;
+}
+.toast-message {
+ font-size: var(--fs-10);
+ color: var(--sonic-silver);
+ margin-bottom: 8px;
+}
+.toast-title {
+ font-size: var(--fs-7);
+ font-weight: var(--weight-500);
+ color: var(--onyx);
+}
+.toast-meta {
+ font-size: var(--fs-10);
+ color: var(--sonic-silver);
+}
+/*-----------------------------------*\
+ #HEADER
+\*-----------------------------------*/
+.header-top,
+.header-user-actions,
+.desktop-navigation-menu { display: none; }
+.header-main {
+ padding: 20px 0;
+ border-bottom: 1px solid var(--cultured);
+.header-logo { margin-bottom: 20px; }
+.header-logo img { margin: auto; }
+.header-search-container { position: relative; }
+.header-search-container .search-field {
+ font-size: var(--fs-7);
+ color: var(--onyx);
+ padding: 10px 15px;
+ padding-right: 50px;
+ border: 1px solid var(--cultured);
+ border-radius: var(--border-radius-md);
+}
+.search-field::-webkit-search-cancel-button { display: none; }
+.search-btn {
+ background: var(--white);
+ position: absolute;
+ top: 50%;
+ right: 2px;
+ transform: translateY(-50%);
+ color: var(--onyx);
+ font-size: 18px;
+ padding: 8px 15px;
+ border-radius: var(--border-radius-md);
+ transition: color var(--transition-timing);
+}
+.search-btn:hover { color: var(--salmon-pink); }
+.mobile-bottom-navigation {
+ background: var(--white);
+ position: fixed;
+ bottom: 0;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 100%;
+ max-width: 500px;
+ margin: auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 5px 0;
+ box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.25);
+ z-index: 5;
+}
+.mobile-bottom-navigation .action-btn {
+ position: relative;
+ font-size: 26px;
+ color: var(--eerie-black);
+ padding: 10px;
+}
+.mobile-bottom-navigation .count {
+ background: var(--bittersweet);
+ color: var(--white);
+ position: absolute;
+ top: 0;
+ right: 0;
+ font-size: 12px;
+ font-weight: var(--weight-500);
+ line-height: 1;
+ padding: 2px 4px;
+ border-radius: 20px;
+}
+.mobile-navigation-menu {
+ background: var(--white);
+ position: fixed;
+top: 0;
+ left: -100%;
+ width: 100%;
+ max-width: 320px;
+ height: 100vh;
+ padding: 20px;
+ box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1);
+ overflow-y: scroll;
+ overscroll-behavior: contain;
+ visibility: hidden;
+ transition: 0.5s ease;
+ z-index: 20;
+}
+.mobile-navigation-menu.active {
+ left: 0;
+ visibility: visible;
+}
+.menu-top {
+ padding-bottom: 15px;
+ margin-bottom: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 2px solid var(--cultured);
+}
+.menu-top .menu-title {
+ color: var(--salmon-pink);
+ font-size: var(--fs-4);
+ font-weight: var(--weight-600);
+}
+.menu-close-btn {
+ color: var(--eerie-black);
+ font-size: 22px;
+ .menu-top {
+ padding-bottom: 15px;
+ margin-bottom: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 2px solid var(--cultured);
+}
+.menu-top .menu-title {
+ color: var(--salmon-pink);
+ font-size: var(--fs-4);
+ font-weight: var(--weight-600);
+}
+.menu-close-btn {
+ color: var(--eerie-black);
+ font-size: 22px;
+}
+.menu-close-btn ion-icon { --ionicon-stroke-width: 50px; }
+.mobile-menu-category-list { margin-bottom: 30px; }
+.menu-category .accordion-menu {
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.mobile-menu-category-list .menu-category { border-bottom: 1px
+solid var(--cultured); }
+.mobile-menu-category-list .menu-title {
+ color: var(--onyx);
+ font-size: var(--fs-6);
+font-weight: var(--weight-500);
+ padding: 12px 0;
+}
+.accordion-menu > div { font-size: 14px; }
+.accordion-menu ion-icon {
+ color: var(--onyx);
+ --ionicon-stroke-width: 90px;
+}
+.product-featured .display-number {
+ color: var(--eerie-black);
+ font-size: var(--fs-5);
+ font-weight: var(--weight-500);
+ min-width: 40px;
+}
+.product-featured .display-text {
+ color: var(--davys-gray);
+ font-size: var(--fs-11);
+}
